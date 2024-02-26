@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Fax";
+  scroll-behavior: smooth;
+  /* border: 0.5px dotted green; */
+  color: azure;
+}
+
+body {
+  background-image: url("../img/dashboardImage.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* position: fixed; */
+}
+
+#navTitle {
+  color: rgb(227, 233, 198);
+  font-size: 33px;
+  font-family: Roboto;
+}
+
+#form_container {
+  max-width: 555px;
+  /* min-height: 100vh; */
+  box-shadow: -25px -25px 56px #171c1f, 25px 25px 56px #5c5c5c;
+  backdrop-filter: blur(4px);
+  margin-top: 234px;
+  padding: 66px;
+  border-radius: 33px;
+}
+
+.form-group {
+}
+
+#submit_button_container {
+  padding-top: 10px;
+}
+
+#noButton {
+  background-color: rgb(54, 98, 59);
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
+#submitButton {
+  background-color: rgb(54, 98, 59);
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
+#yesButton {
+  background-color: rgb(164, 43, 43);
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
+#noButton,
+#yesButton {
+  padding-left: 66px;
+  padding-right: 66px;
+  border-radius: 123px;
+}
+
+#error {
+  background-color: rgb(137, 34, 34);
+}

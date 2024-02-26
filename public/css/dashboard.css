@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Fax";
+  scroll-behavior: smooth;
+  /* border: 0.5px dotted green; */
+  color: azure;
+}
+
+body {
+  background-image: url("../img/dashboardImage.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* position: fixed; */
+}
+
+#tableContainer {
+  max-height: 700px;
+  min-height: 700px;
+  backdrop-filter: blur(8px);
+  overflow-y: auto;
+  margin-top: 22px;
+}
+
+#tableHeader {
+  top: 0;
+  background-color: rgb(61, 69, 63);
+  position: sticky;
+}
+
+#thead {
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+
+#navTitle {
+  color: rgb(227, 233, 198);
+  font-size: 33px;
+  font-family: Roboto;
+}
+
+#tableButton {
+  color: whitesmoke;
+  border-radius: 33px;
+  padding-top: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 10px;
+}
+
+.viewButton {
+  border-color: rgb(65, 119, 119);
+  padding-top: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 5px;
+}
+
+.viewButton:hover {
+  border-color: rgb(65, 119, 119);
+  background-color: rgb(45, 96, 96);
+}
+
+.editButton {
+  border-color: rgb(103, 125, 77);
+}
+
+.editButton:hover {
+  border-color: rgb(103, 125, 77);
+  background-color: rgb(103, 125, 77);
+  color: black;
+}
+
+.deleteButton {
+  border-color: rgb(108, 64, 56);
+}
+
+.deleteButton:hover {
+  border-color: rgb(108, 64, 56);
+  background-color: rgb(108, 64, 56);
+  color: black;
+}
+
+#dropdownLink {
+  text-decoration: none;
+  list-style: none;
+  padding: 10px;
+  margin-right: 20px;
+  color: #000000;
+  background-color: #ffffff;
+  border-start-end-radius: 20px;
+  border-end-start-radius: 20px;
+}
+
+#nav-item-dropdown {
+  color: #000000;
+}
+
+#logout {
+  margin-right: 20px;
+}
+
+#searchInput {
+  border-radius: 20px;
+}
+
+#searchInput {
+  padding: 10px;
+}
+
+#submitButton {
+  background-color: rgb(54, 98, 59);
+  color: #ffffff;
+  border-color: #ffffff;
+  border-radius: 33px;
+  padding-top: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 10px;
+}
+/* 
+#navbarSupportedContent {
+  width: 100%;
+}
+
+.nav-item dropdown {
+  list-style-type: none;
+}
+
+#dropdown {
+  color: #ffffff;
+  background-image: url("../img/dashboardImage.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+/* .profile-dropdown {
+  position: relative;
+} */
+
+/* .profile-button {
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  padding: 10px;
+  color: #333;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.profile-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-top: none;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  display: none;
+}
+
+.profile-menu li {
+  padding: 10px;
+}
+
+.profile-menu li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.profile-dropdown:hover .profile-menu {
+  display: block;
+} */

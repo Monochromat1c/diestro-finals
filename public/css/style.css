@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Fax";
+  scroll-behavior: smooth;
+  /* border: 1px dotted green; */
+}
+
+#signUp,
+#signIn {
+  font-size: 18px;
+  text-decoration: none;
+  color: rgb(199, 196, 196);
+  padding: 5px;
+}
+
+#signUp:hover,
+#signIn:hover {
+  color: rgb(63, 112, 85);
+}
+
+#navLink {
+  font-size: 18px;
+  text-decoration: none;
+  color: rgb(221, 221, 221);
+}
+
+#navLink:hover {
+  color: rgb(63, 112, 85);
+}
+
+#navigationBar {
+  padding: 15px;
+  min-width: 100%;
+  /* color: antiquewhite; */
+  text-align: center;
+  /* background-color: rgb(237, 248, 190); */
+  background-color: rgb(255, 255, 255);
+  background-image: url("../img/welcomeImage.jpg");
+  background-size: cover;
+  position: fixed;
+}
+
+#navTitle {
+  color: rgb(227, 233, 198);
+  font-size: 1.5rem;
+}
+
+#navTitle:hover {
+  color: rgb(245, 208, 157);
+}
+
+body {
+  background-color: rgb(67, 66, 68);
+}
+
+#title {
+  padding-top: 10rem;
+}
+
+#welcomeMessage {
+  color: rgb(210, 205, 205);
+  text-align: center;
+  background-image: url("../img/welcomeImage.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  min-height: 100vh;
+}
+
+.welcomeTitle {
+  font-family: "Roboto";
+  font-size: 54px;
+}
+
+.welcomeParagraph {
+  padding-top: 15px;
+  font-size: 25px;
+  padding-left: 25rem;
+  padding-right: 25rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.welcomeParagraph2 {
+  padding-top: 0.1rem;
+  font-size: 25px;
+  padding-left: 25rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-right: 25rem;
+}
+
+#aboutOurWebsite {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  background-image: url("../img/aboutWebsiteImage.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  min-height: 100vh;
+}
+
+.ourWebsiteTitle {
+  font-family: "Roboto";
+  font-size: 54px;
+}
+
+.ourWebsiteParagraph {
+  padding-top: 10px;
+  font-size: 25px;
+  padding-left: 25rem;
+  padding-right: 25rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.ourWebsiteParagraph2 {
+  padding-top: 10px;
+  font-size: 25px;
+  padding-left: 25rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-right: 25rem;
+}
+
+#aboutUs {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  background-image: url("../img/aboutUsImage.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  min-height: 38vh;
+}
+
+.aboutUsTitle {
+  font-family: "Roboto";
+  padding-top: 1.5rem;
+  font-size: 33px;
+}
+
+.aboutUsParagraph {
+  text-align: justify;
+  font-size: 15px;
+  padding-left: 25rem;
+  padding-right: 25rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.aboutUsParagraph2 {
+  text-align: left;
+  font-size: 15px;
+  padding-left: 25rem;
+  padding-right: 25rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.aboutUsParagraph3 {
+  text-align: center;
+  font-size: 15px;
+  padding-left: 25rem;
+  padding-right: 25rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-bottom: 10px;
+}

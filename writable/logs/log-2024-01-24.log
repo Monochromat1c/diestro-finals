@@ -1,0 +1,36 @@
+CRITICAL - 2024-01-24 08:16:09 --> Invalid file: "user/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('user/index.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('user/index', [], true)
+ 3 APPPATH\Controllers\mainController.php(7): view('user/index')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\mainController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mainController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-24 08:16:43 --> Invalid file: "user/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('user/index.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('user/index', [], true)
+ 3 APPPATH\Controllers\mainController.php(7): view('user/index')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\mainController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mainController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-24 08:16:45 --> Invalid file: "user/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('user/index.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('user/index', [], true)
+ 3 APPPATH\Controllers\mainController.php(7): view('user/index')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\mainController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mainController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-24 08:16:45 --> Invalid file: "user/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('user/index.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('user/index', [], true)
+ 3 APPPATH\Controllers\mainController.php(7): view('user/index')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\mainController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\mainController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

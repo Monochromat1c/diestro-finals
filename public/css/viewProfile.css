@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Fax";
+  scroll-behavior: smooth;
+  /* border: 0.5px dotted green; */
+  color: azure;
+}
+
+body {
+  background-image: url("../img/dashboardImage.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* position: fixed; */
+}
+
+#navTitle {
+  color: rgb(227, 233, 198);
+  font-size: 33px;
+  font-family: Roboto;
+}
+
+.profile-picture {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  overflow: hidden;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#alert {
+  background-color: rgb(137, 34, 34);
+}
+
+.profile-picture .alt-label {
+  /* position: absolute; */
+  top: 50%;
+  left: 50%;
+  /* transform: translate(-50%, -50%); */
+  color: #ffffff;
+  font-size: 14px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 5px 10px;
+  border-radius: 5px;
+  z-index: 1;
+  white-space: nowrap;
+}
+
+.profile-picture img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.upload-label {
+  position: absolute;
+  bottom: -20px; /* Adjust as needed to align the label */
+  left: 50%;
+  transform: translateX(-50%);
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.upload-input {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+}
+
+#dropdownLink {
+  text-decoration: none;
+  list-style: none;
+  padding: 10px;
+  margin-right: 20px;
+  color: #000000;
+  background-color: #ffffff;
+  border-start-end-radius: 20px;
+  border-end-start-radius: 20px;
+}
+
+#nav-item-dropdown {
+  color: #000000;
+}
+
+#logout {
+  margin-right: 20px;
+}
+
+#searchInput {
+  border-radius: 20px;
+}
+
+#searchInput {
+  padding: 10px;
+}
+
+#form_container {
+  max-width: 777px;
+  box-shadow: -25px -25px 56px #171c1f, 25px 25px 56px #5c5c5c;
+  backdrop-filter: blur(4px);
+  margin-top: 234px;
+  padding-bottom: 55px;
+  padding-top: 55px;
+  padding-left: 100px;
+  padding-right: 100px;
+  border-radius: 33px;
+  /* min-height: 100vh; */
+}
+
+.form-group {
+  padding-top: 12px;
+}
+
+#submit_button_container {
+  padding-top: 10px;
+}
+
+#goBackButton {
+  background-color: rgb(54, 98, 59);
+  color: #ffffff;
+  border-color: #ffffff;
+  border-radius: 33px;
+  padding-top: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 10px;
+}
+
+#submitButton {
+  background-color: rgb(54, 98, 59);
+  color: #ffffff;
+  border-color: #ffffff;
+  border-radius: 33px;
+  padding-top: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 10px;
+}
+
+#deleteButton {
+  background-color: rgb(164, 43, 43);
+  color: #ffffff;
+  border-color: #ffffff;
+  border-radius: 33px;
+  padding-top: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 10px;
+}
+
+#error {
+  background-color: rgb(137, 34, 34);
+}
+
+#optionText {
+  background-color: rgb(185, 212, 203);
+  color: black;
+}
+
+#insect_habitat,
+#insect_species,
+#insect_name {
+  border-radius: 15px;
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+}

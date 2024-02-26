@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Fax";
+  scroll-behavior: smooth;
+  /* border: 0.5px dotted green; */
+  /* color: azure; */
+}
+
+#error {
+  max-width: 555px;
+}
+
+body {
+  color: whitesmoke;
+  background-image: url("../img/welcomeImage.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* position: fixed; */
+}
+
+#navTitle {
+  color: rgb(227, 233, 198);
+  font-size: 33px;
+  font-family: Roboto;
+}
+
+#form-container {
+  padding-bottom: 100px;
+}
+
+#form_container {
+  padding-top: 22px;
+  backdrop-filter: blur(4px);
+  max-width: 555px;
+  /* min-height: 100vh; */
+  box-shadow: -25px -25px 56px #171c1f, 25px 25px 56px #5c5c5c;
+  border-radius: 33px;
+}
+
+#form {
+  padding: 33px;
+}
+
+.form-group {
+  padding-top: 12px;
+}
+
+#submit_button_container {
+  padding-top: 10px;
+}
+
+#goBackButton {
+  background-color: rgb(54, 98, 59);
+  color: #ffffff;
+  border-color: #ffffff;
+  border-radius: 33px;
+  padding-top: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 10px;
+}
+
+#submitButton {
+  background-color: rgb(54, 98, 59);
+  color: #ffffff;
+  border-color: #ffffff;
+  border-radius: 33px;
+  padding-top: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 10px;
+}
+
+#deleteButton {
+  background-color: rgb(164, 43, 43);
+  color: #ffffff;
+  border-color: #ffffff;
+  border-radius: 33px;
+  padding-top: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 10px;
+}
+
+#error {
+  background-color: rgb(137, 34, 34);
+}
+
+#username,
+#password,
+#first_name,
+#middle_name,
+#last_name {
+  border-radius: 15px;
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+}
